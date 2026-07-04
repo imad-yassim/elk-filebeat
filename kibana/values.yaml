@@ -135,7 +135,7 @@ ingress:
     kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: kubernetes.docker.internal
+    - host: elk.debrislab.xyz
       paths:
         - path: /
   tls: []
